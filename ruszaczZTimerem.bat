@@ -1,5 +1,4 @@
-@echo off
-SET /A "index=1"
+//@echo off
 :while
 
 TIMEOUT 3
