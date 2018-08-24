@@ -2,9 +2,9 @@
 SET /A "index=1"
 :while
 
-TIMEOUT 3
-call ruszacz.bat moveby 10x10
-TIMEOUT 3
-call ruszacz.bat moveby -10x-10
+TIMEOUT 90
+call ruszacz.bat moveby 1x1
+TIMEOUT 90
+call ruszacz.bat moveby -1x-1
 
 goto :while
